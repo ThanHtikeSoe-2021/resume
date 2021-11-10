@@ -26,32 +26,34 @@ body {
 }
 
 /* Text and Paragraphs */
+
 h2 {
-  font-size: 150%;
+  font-size: 250%;
 }
 
 h3 {
-  font-size: 110%;
+  font-size: 170%;
   color: #161E54;
 }
 
 h4 {
-  font-size: 100%;
-  margin: 0;
+  font-size: 130%;
+  margin: 0 50px 0 20px;
+  color: #548CA8;
 }
 
 p {
-  font-size: 80%;
+  font-size: 120%;
+  margin:15px;
 }
 
-li {
-  font-size: 100%;
+h5 {
+  font-size: 120%;
+  line-height: normal;
+  margin:0;
 }
 
-td {
-  font-size: 80%;
-  width: 5%;
-}
+
 
 hr {
   background-color:none;
@@ -62,18 +64,20 @@ hr {
   width: 5%;
 }
 .vaccine_text{
-  font-size: 0.8rem;
+  font-size: 100%;
   font-weight: bolder;
   position: absolute;
-  right: 135px;
+  right: 120px;
   top: 260px;
+  color: darkred;
 }
 .underline{
   text-decoration: underline;
 }
 /* Images */
 .picture {
-  width: 18%;
+  width: 20%;
+  height: 300px;
   margin: 10px 20px;
   float: left;
 }
@@ -83,10 +87,10 @@ hr {
   float: left;
   filter: brightness(1.8);
   position: absolute;
-  right: 100px;
-  top: 140px;
+  right: 80px;
+  top: 110px;
 }
 .logo_image {
-  width: 10%;
+  width: 9%;
   margin: 0 5px;
 }
