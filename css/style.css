@@ -28,7 +28,7 @@ body {
 /* Text and Paragraphs */
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 h3 {
@@ -37,13 +37,13 @@ h3 {
 }
 
 h4 {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   margin: 0 30px 0 10px;
-  color: #548CA8;
+  color: darkred;
 }
 
 p {
-  font-size: 120%;
+  font-size: 1.2rem;
   margin:15px;
 }
 
@@ -64,11 +64,11 @@ hr {
   width: 5%;
 }
 .vaccine_text{
-  font-size: 100%;
+  font-size: 1rem;
   font-weight: bolder;
-  position: absolute;
-  right: 120px;
-  top: 260px;
+  position: relative;
+  left: 750px;
+  bottom: 240px;
   color: darkred;
 }
 .underline{
@@ -77,7 +77,7 @@ hr {
 /* Images */
 .picture {
   width: 20%;
-  height: 300px;
+
   margin: 10px 20px;
   float: left;
 }
@@ -88,7 +88,7 @@ hr {
   filter: brightness(1.8);
   position: absolute;
   right: 80px;
-  top: 110px;
+  top: 80px;
 }
 .logo_image {
   width: 9%;
