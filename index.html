@@ -4,11 +4,43 @@
 <head>
   <meta charset="utf-8">
   <title>Resume</title>
+    <!-- Linked to Css -->
   <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
   <link rel="icon" href="images/favicon.ico">
+
+  <!-- Javascript Codes-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(function () {
+      "use strict";
+
+      $(".popup img").click(function () {
+          var $src = $(this).attr("src");
+          $(".show").fadeIn();
+          $(".img-show img").attr("src", $src);
+      });
+
+      $("span, .overlay").click(function () {
+          $(".show").fadeOut();
+      });
+
+  });
+  </script>
+
 </head>
 
 <body>
+    <!-- Popup image div -->
+  <div class="show">
+
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <img src="">
+    </div>
+  </div>
+  <!-- Popup image div End-->
   <div class="background">
 
     <div class="margin" id="header">
@@ -56,9 +88,11 @@
 
         </table>
       </div>
+<div class="popup">
+  <img class="vaccine margin " src="images/vaccine_id.png" alt="Not Found">
+</div>
 
-      <img class="vaccine margin" src="images/vaccine_id.png" alt="Not Found">
-    
+
     </div>
     <div class="margin" id="about_me">
       <h3 style="text-align:left;" class="underline">ABOUT ME</h3>
